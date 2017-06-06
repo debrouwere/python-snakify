@@ -20,7 +20,7 @@ setup(name='snakify',
       license='ISC',
       test_suite='snakify.tests',
       packages=find_packages(),
-      requirements=[
+      install_requires=[
         'num2words',
         'unicode-slugify',
         ]
