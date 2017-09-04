@@ -3,7 +3,7 @@ import os
 from setuptools import find_packages, setup
 
 setup(name='snakify',
-      version='1.1.0',
+      version='1.1.1',
       description=("Slugify a string to a valid Python variable name."),
       #long_description=open('README.rst').read(),
       classifiers=['Development Status :: 4 - Beta',
