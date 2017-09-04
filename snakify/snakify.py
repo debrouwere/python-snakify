@@ -6,7 +6,7 @@ from slugify import slugify
 
 def snakify(key):
     # convert camelCase to snake_case
-    key = key[0] + re.sub(r'([^A-Z])([A-Z][^A-Z])', r'\1_\2', key[1:])
+    key = re.sub(r'([a-z])([A-Z0-9]+)', r'\1_\2', key)
 
     # avoid starting with a number
     match = re.match(r'^\d+', key)

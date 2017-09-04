@@ -8,6 +8,8 @@ cases = {
     '23 Days of Summer': 'twenty_three_days_of_summer',
     'ratherLate': 'rather_late',
     'Flammeküche': 'flammekuche',
+    'avgTimeOnPage': 'avg_time_on_page',
+    'avgTimeOn12thPage': 'avg_time_on_12th_page',
 }
 
 
